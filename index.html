@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+	<h1 id="title">Survey Form</h1>
+	<main id="main-form">
+		
+		<p id="description">Tell us a little about yourself</p>
+		<div class="container">
+			<form id="survey-form" method="POST">
+				<div class="row"> 
+					<div class="column"> <label id="name-label" for="name" class="input-label">* Name: </label> </div>
+					<div class="column"> <input type="text" class="input" id="name" name="name" placeholder="enter your name" required> </div>
+				</div>
+				<div class="row"> 
+					<div class="column"> <label id="email-label" for="email" class="input-label">* Email: </label> </div>
+					<div class="column"> <input type="email" class="input" id="email" name="email" placeholder="enter your email" required> </div>
+				</div>
+				<div class="row"> 
+					<div class="column"> <label id="number-label" for="age" class="input-label">* Age: </label> </div>
+					<div class="column"> <input type="number" class="input" id="number" name="age" min="1" max="100" placeholder="age?" required> </div>
+				</div>
+				<div class="row">
+					<div class="column">
+						<label id="select-label" class="input-label"> What do you want to accomplish in 2019?</label>
+					</div>
+					<div class="column"> 
+						<select id="dropdown" name="goals" class="input"> 
+							<option placeholder="select one">select one</option>
+							<option value="certification">finish certification</option>
+							<option value="website">build a website</option>
+							<option value="jeep">get a jeep</option>
+							<option value="trip">go on a trip with friends</option>
+							<option value="volunteer">start volunteering at a local charity</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column"><label id="" class="input-label"> Which company would you rather work for? </label> </div>
+					<div class="column" style="margin-top:5px;"> 
+							<input type="radio" class="input" name="company" value="Spreetail">Spreetail<br>
+							<input type="radio" class="input" name="company" value="Hudl">Hudl<br>
+							<input type="radio" class="input" name="company" value="MacPractice">MacPractice<br>
+							<input type="radio" class="input" name="company" value="Assurity">Assurity
+					</div>
+				</div>
+				<div class="row">
+						<div class="column"> <label id="" class="input-label">Pick the skills you would like to improve: </label></div>
+						<div class="column" style="margin-top:8px;"> 
+							<input type="checkbox" value="html5">HTML5<br>
+							<input type="checkbox" value="css3">CSS3<br>
+							<input type="checkbox" value="javascript">Javascript<br>
+							<input type="checkbox" value="sql">SQL<br>
+							<input type="checkbox" value="C#">C#
+						</div>
+				</div>
+				<div class="row">
+					<div class="column"><label id="" class="input-label">Any additional comments?</label> </div>
+					<div class="column">
+							<textarea rows="6" cols="50" class="input" style="margin-top:8px;">
+								heres some test text
+							</textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column"><input type="submit" id="submit" class="input button" style=""></div>
+				</div>
+			</form>
+		</div>
+	</main>
+</body>
+</html>

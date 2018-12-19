@@ -1,0 +1,57 @@
+/*resets the css so the main div goes to the edge of the viewport */
+html, body{
+	margin: 0; 
+	padding: 0;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+h1 { text-align: center; color: coral;}
+
+#main-form {
+	background-color: lightgrey;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 900px;
+	border-radius: 10px;
+	padding-top: 10px;
+	/*text-align:center;*/
+	border: 4px coral dotted;
+	padding-bottom: 10px;
+}
+
+#description{
+	text-align:center;
+}
+.column{
+	flex: 50%;
+}
+
+.row{
+	display: flex;
+}
+
+.submit-button{
+	width: auto;
+}
+.input{
+	vertical-align: center;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px;
+}
+.input-label{
+	float: right;
+	text-align: right;
+	
+	margin-right: 10px;
+	margin-top: 7px;
+}
+.button{
+	margin-left:50%; 
+	padding: 5px 15px;
+	background-color: white;
+}
+
+.button:hover {
+	background-color: coral;
+}
