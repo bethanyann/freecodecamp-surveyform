@@ -4,10 +4,10 @@ html, body{
 	padding: 0;
 	font-family: Raleway, Helvetica, sans-serif;
 }
-h1 { text-align: center; color: coral;}
+h1 { text-align: center; color: #2B3A42;}
 
 #main-form {
-	background-color: lightgrey;
+	background-color: #BDD3DE;
 	display: block;
 	margin: 0 auto;
 	width: 80%;
@@ -15,7 +15,7 @@ h1 { text-align: center; color: coral;}
 	border-radius: 10px;
 	padding-top: 10px;
 	/*text-align:center;*/
-	border: 4px coral dotted;
+	border: 4px #2B3A42 dotted;
 	padding-bottom: 10px;
 }
 
@@ -53,5 +53,5 @@ h1 { text-align: center; color: coral;}
 }
 
 .button:hover {
-	background-color: coral;
+	background-color: #3F5866;
 }
